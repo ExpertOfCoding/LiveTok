@@ -74,3 +74,5 @@ Büyük boyutlu oldukları için aşağıdaki dosyalar repoya dahil edilmemişti
 
 ---
 *LiveTok Team - 2026*
+
+> **Note:** UI is completely AI-coded, so consider refactoring or updating it in the future.
