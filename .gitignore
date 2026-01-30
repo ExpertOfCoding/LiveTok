@@ -1,0 +1,36 @@
+# Next.js
+UI/node_modules/
+UI/.next/
+UI/out/
+UI/build/
+UI/.vercel_analytics_id
+UI/.vercel_toolbar_id
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+LiveTok.exe
+
+# Python & TTS
+python/__pycache__/
+python/venv/
+python/.env
+python/*.onnx
+python/*.onnx.json
+python/piper.exe
+python/piper_msvc.dll
+
+# Project specific
+public/media/*
+!public/media/.gitkeep
+data.json.bak
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

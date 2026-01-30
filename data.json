@@ -1,0 +1,77 @@
+{
+    "actions": {
+        "1": {
+            "commands": [
+                "say Hello"
+            ],
+            "display_text": "",
+            "screen": "5",
+            "show_user_info": true,
+            "skip_on_next_action": true
+        },
+        "2": {
+            "commands": [
+                "say Followed"
+            ],
+            "display_text": "",
+            "screen": "1",
+            "show_user_info": true,
+            "skip_on_next_action": true
+        },
+        "3": {
+            "display_text": "REIS",
+            "play_media": {
+                "max_duration": "",
+                "media_path": "http://localhost:3000/media/Ekran görüntüsü 2023-10-05 195154.png",
+                "type": "image",
+                "volume": 0.2
+            },
+            "screen": "2",
+            "show_user_info": true,
+            "skip_on_next_action": true
+        }
+    },
+    "events": {
+        "coinCount": [
+            {
+                "action_id": [
+                    "3"
+                ],
+                "enabled": true,
+                "max_coin": 9999,
+                "min_coin": 1
+            }
+        ],
+        "follow": {
+            "action_id": [
+                "2"
+            ],
+            "enabled": true
+        },
+        "specifiedGift": [
+            {
+                "action_id": [
+                    "3"
+                ],
+                "enabled": true,
+                "gift_id": 1,
+                "gift_name": "rose"
+            }
+        ],
+        "textToSpeech": {
+            "enabled": true,
+            "type": "fanClub",
+            "voice": {
+                "type": "random"
+            }
+        }
+    },
+    "key": "change_me",
+    "max_chars_tts": 25,
+    "max_comment_que_length": 5,
+    "max_media_que_length": 5,
+    "port": 3000,
+    "server_url": "http://localhost:4567/v1/server/exec",
+    "tiktok_username": "qvezirx",
+    "volume": 0.2
+}
